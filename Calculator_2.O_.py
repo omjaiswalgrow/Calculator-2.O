@@ -1,0 +1,69 @@
+print('Calculator 2.O , Developed by Om Jaiswal')
+
+print("Calculator 2.O")
+
+history = []
+
+while True:
+        
+  #Print Instruction Here
+               
+    print('\n For Addition type A, \n Substraction type B, \n Multiplication type C, \n Division type D, \n History type H, \n Exit type E: ' )
+        
+    choise= input(" \n Enter your Option: ")
+    if choise.strip() == "":
+             print("You have Entered Nothing, try again")
+             continue
+             
+    elif choise.lower() == "h":
+               print(" History: ", history)
+               print(" Calculator 2.O, Developed by Om Jaiswal")
+               continue
+               
+    elif choise.lower() == "e":
+                print("Calculator Closed")
+                break
+                
+    #Take Values from User
+    try:      
+        X= float(input(" Enter your 1st Number: "))
+        Y= float(input(" Enter your 2nd Number: "))
+    except:
+        print("Invalid Input, Please Enter Numbers Only")   
+        continue
+               
+    #Enter Conditions
+            
+    if choise.lower() =="a":
+        print("Addition Result: ",X+Y)
+        history.append(f"{X} + {Y} = {X+Y}")
+                   
+    elif choise.lower() == "b":
+        print("Substraction Result: ",X-Y)
+        history.append(f"{X} - {Y} = {X-Y}")
+                    
+    elif choise.lower() == "c":
+        print("Multiplication Result: ",X*Y)
+        history.append(f"{X} * {Y} = {X*Y}")
+                    
+    elif choise.lower() =="d":
+               
+        if Y  == 0:
+             print("Cannot be divisible by Zero")
+                   
+        else:
+             result= X/Y
+             print("Division Result: ",result)
+             history.append(f"{X} ÷ {Y} = {result}")
+               
+    else:
+         print(" You have entered wrong option, Please try again")
+           
+    # Give chance to correct error without closing the programme
+           
+    Retry= input("If you want to retry type Yes, if not type No: ")
+    if Retry.lower()== 'yes':
+        continue
+           
+    elif Retry.lower() == 'no':
+        break
