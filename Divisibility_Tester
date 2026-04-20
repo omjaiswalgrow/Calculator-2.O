@@ -1,0 +1,90 @@
+#Divisiblity tester Developed By Om Jaiswal
+history=[]
+while True:
+      
+    print("\n Divisibility tester, developed by om Jaiswal ")
+
+    #Input section
+    
+    Mode= input("\n Select Mode: \n 1. For Single check, type A \n 2. For Range check, type B \n 3. To open History, type H \n >>> ").strip().lower()
+    Mode =Mode.strip().lower()
+   
+    if Mode in ['a' , 'b' , 'h']:
+        print("You have Entered: ",Mode)
+        
+    elif Mode == "":
+        print("You have Entered Nothing, Try again")
+        continue
+        
+    else:
+        print("You have Entered Invalid Option, Try again")
+        continue
+       # Input programme for "A" 
+    if Mode =="a":  
+       
+      try:     
+        num = float(input(" Enter the Divident: "))
+
+        num2 = float(input(" Enter tha Divisor: " ))
+
+      except:
+          print("Invalid Input please Enter only Integer and Float Values")
+          print("Restarting the programme")
+          continue
+          
+          # Input programme for "B"
+    elif Mode == "b":
+       
+       try:
+         start = int(input("Enter Start: "))
+         end = int(input("Enter end: "))
+         divisor = int(input("Enter Divisor: "))
+         
+         if end < start:
+             print("Starting Range is Greater than Ending Range, Can not Calculate")
+                
+       except:
+           print("Invalid Input,Enter only Integer or Float Values.\n Restarting tha Programme")
+           continue
+    #Input processing for "H
+    
+    elif Mode== "h" :
+            print("\n history")
+            
+            if len(history)== 0:
+                print("No History Yet.")
+                
+            else:
+                for item in history:
+                    print(item)
+                
+        #Input Rrocessing and Output section
+        
+    # processing and Printing For "A"
+    
+    if Mode =="a":
+        if  num%num2 == 0:
+          print("Remainder: ", num%num2, "Hence,Divisible.")
+          history.append(f"{num} ÷ {num2} = Divisible.")
+          
+        else :
+          print("Remainder: ", num%num2, "Hence, Not Divisible.")
+          history.append(f"{num} ÷ {num2} = Not Divisible.")
+          
+    # Printing and Processing for "B"
+    
+    elif Mode =="b":
+        for i in range (start, end+1):
+            if i% divisor == 0:
+                print("\nDivisible numbers:", end=" ")
+                history.append(f"{i} ÷ {divisor}= Divisible")
+    
+    exit= input("\n Do You want to try Again? (Yes/No)")
+    
+    if exit.strip().lower()=='no':
+        print("You Entered No, \n Programme closed")
+        break
+        
+    elif exit.strip().lower()=="yes":
+        print("\n Restarting tha programme \n")
+        continue
