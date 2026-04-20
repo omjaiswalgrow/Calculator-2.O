@@ -12,7 +12,7 @@ This is my learning journey where I build and improve Python projects step by st
 
 ## 📌 Projects Included
 
-🔢 1. Calculator 2.0
+## 🔢 1. Calculator 2.0
 
 A CLI based calculator with multiple operations:
 
