@@ -1,16 +1,16 @@
-🧪 Pythonoid Lab - Python Projects 🚀 
+#🧪 Pythonoid Lab - Python Projects 🚀 
 
 This repository contains beginner-friendly Python projects focused on logic building, problem solving, and experimentation.
 
 ---
 
-🚀 About This Repository
+#🚀 About This Repository
 
 This is my learning journey where I build and improve Python projects step by step.
 
 ---
 
-📌 Projects Included
+#📌 Projects Included
 
 🔢 1. Calculator 2.0
 
@@ -22,7 +22,7 @@ A CLI based calculator with multiple operations:
 
 ---
 
-📊 2. Divisibility Tester
+#📊 2. Divisibility Tester
 
 A smart tool to check divisibility of numbers:
 
@@ -33,7 +33,7 @@ A smart tool to check divisibility of numbers:
 
 ---
 
-🧠 Skills Used
+#🧠 Skills Used
 
 - Python Programming
 - Logic Building
@@ -42,13 +42,13 @@ A smart tool to check divisibility of numbers:
 
 ---
 
-💡 Purpose
+#💡 Purpose
 
 These projects are built while learning programming and improving problem-solving skills step by step.
 
 ---
 
-👨‍💻 Author
+#👨‍💻 Author
 
 Om Jaiswal
 Aspiring Developer | Learning Python & Building Projects 🚀
