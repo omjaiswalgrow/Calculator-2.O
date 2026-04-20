@@ -1,7 +1,6 @@
-# 🚀 Om Jaiswal Grow - Python Projects
+# 🧪 Pythonoid Lab - Python Projects 🚀 
 
-Welcome to my project repository!  
-This repo contains beginner-friendly Python projects focused on logic building and problem solving.
+This repository contains beginner-friendly Python projects focused on logic building, problem solving, and experimentation.
 
 ---
 
