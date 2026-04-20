@@ -7,7 +7,7 @@ This repository contains beginner-friendly Python projects focused on logic buil
 ## 📌 Projects Included
 
 ### 🔢 1. Calculator 2.O
-A CLI + GUI based calculator with multiple operations:
+A CLI based calculator with multiple operations:
 - Addition, Subtraction, Multiplication, Division
 - History tracking
 - Error handling
