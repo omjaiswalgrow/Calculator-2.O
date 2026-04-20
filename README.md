@@ -36,6 +36,9 @@ A smart tool to check divisibility of numbers:
 These projects are built while learning programming and improving problem-solving skills step by step.
 
 ---
+A collection of Python projects focused on logic building and experimentation.
+
+___
 
 ## 👨‍💻 Author
 Om Jaiswal
